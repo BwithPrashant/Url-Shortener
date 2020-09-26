@@ -101,34 +101,30 @@ func main() {
 
 func Test1() {
 	var shortUrl string
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 50; i++ {
 		shortUrl = GetShortUrl("bsdnbdsjfbjsdfba"+string(i), "hjhd")
 		fmt.Println("short url is :", shortUrl)
-		fmt.Println("-----------")
 	}
 }
 
 func Test2() {
 	var shortUrl string
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 50; i++ {
 		shortUrl = GetShortUrl("bsdnbdsjfbjsdfba"+string(i), "hjhd"+string(i))
 		fmt.Println("short url is :", shortUrl)
-		fmt.Println("-----------")
 	}
 }
 func Test3() {
 	var shortUrl string
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 50; i++ {
 		shortUrl = GetShortUrl("bsdnbdsjfbjsdfba", "hjhd")
 		fmt.Println("short url is :", shortUrl)
-		fmt.Println("-----------")
 	}
 }
 func Test4() {
 	var shortUrl string
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 50; i++ {
 		shortUrl = GetShortUrl("bsdnbdsjfbjsdfba"+string(i), "hjhd"+string(i))
 		fmt.Println("short url is :", shortUrl)
-		fmt.Println("-----------")
 	}
 }
