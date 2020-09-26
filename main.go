@@ -96,7 +96,7 @@ func main() {
 	//Test3()
 
 	// generate short url for different client having same url
-	//Test4()
+	Test4()
 }
 
 func Test1() {
